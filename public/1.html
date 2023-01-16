@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body style="text-align: center">
+    <h1 style="color: green; padding: 13px">GeeksforGeeeks</h1>
+
+    <h3>Index inside map() Function</h3>
+
+    <script>
+      var student = ["Arun", "Arul", "Sujithra", "Jenifer", "Wilson"];
+
+      student.map((st, ind) => {
+        alert("Hello... " + st + "\n");
+
+        var ind = ind + 1;
+
+        alert("Your Position in Top 5" + " Rank is " + ind + "\n");
+      });
+    </script>
+  </body>
+</html>
